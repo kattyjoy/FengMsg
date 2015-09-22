@@ -30,4 +30,5 @@ function CheckSignature() //ÑéÖ¤
 }  
   
 Valid();  
+echo "Hello World"
 ?>  
