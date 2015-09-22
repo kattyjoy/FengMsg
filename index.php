@@ -1,4 +1,7 @@
-<?php  
+
+<html>
+<head>
+    <?php  
   
 function Valid()  
 {  
@@ -30,5 +33,9 @@ function CheckSignature() //ÑéÖ¤
 }  
   
 Valid();  
-echo "Hello World"
 ?>  
+    </head>
+    <body>
+        hello world
+    </body>
+</html>
