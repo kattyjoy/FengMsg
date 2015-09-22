@@ -1,6 +1,4 @@
 
-<html>
-<head>
     <?php  
   
 function Valid()  
@@ -19,7 +17,7 @@ function CheckSignature() //验证
     $timestamp = $_GET["timestamp"];  
     $nonce = $_GET["nonce"];  
   
-    $token = "MyWX";  
+    $token = "Feng87Wx";  
     $tmpArr = array($token, $timestamp, $nonce);  
     sort($tmpArr);  
     $tmpStr = implode( $tmpArr );  
@@ -34,8 +32,3 @@ function CheckSignature() //验证
   
 Valid();  
 ?>  
-    </head>
-    <body>
-        hello world
-    </body>
-</html>
